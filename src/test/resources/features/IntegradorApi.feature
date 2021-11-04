@@ -1,8 +1,6 @@
 Feature: Time tracker example
   As an api user I want to execute request in order to get proper responses.
 
-  #    mvn -P Secuencial "-Dcucumber.tags=@TimeTracker" test
-
   @TimeTracker @GetTimeEntries
   Scenario Outline: Example scenario for get all time entries
     Given My account created in clockify and my X-Api-Key
@@ -59,5 +57,3 @@ Feature: Time tracker example
     Examples:
       | operation | entity      | jsonName        | status |
       | DELETE    | DELETE_TIME | time/deleteTime | 204    |
-
-
