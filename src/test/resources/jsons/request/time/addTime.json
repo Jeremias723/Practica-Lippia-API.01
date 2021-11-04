@@ -1,0 +1,25 @@
+{
+  "url": "{{base.url}}",
+  "headers": {
+    "X-Api-Key": "{{api-key}}",
+    "Content-Type": "application/json"
+  },
+"body" : {
+  "start": "2018-06-12T13:48:14.000Z",
+  "billable": "true",
+  "description": "{{description}}",
+  "projectId": "{{id-project}}",
+  "taskId": "6176d1ce7bebf32276d0dbd3",
+  "end": "2018-06-12T13:50:14.000Z",
+  "tagIds": [
+    ""
+  ],
+  "customFields": [
+    {
+      "customFieldId" : "5b1e6b160cb8793dd93ec120",
+      "value": "San Francisco"
+    }
+  ]
+},
+"endpoint": "/workspaces/{{id-work}}/user/616f3f2199d16c30b318ddee/time-entries"
+}
